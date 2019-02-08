@@ -19,7 +19,7 @@ clear
 echo ""
 echo ""
 echo ""
-echo -e $r "
+echo -e $r '''
  ____
 / ___| _ __   __ _ _ __ ___  _ __ ___   ___ 
 \___ \| _ \ / _` | `_ ` _ \| `_ ` _ \ / _ \ 
@@ -27,7 +27,7 @@ echo -e $r "
 |____/| .__/ \__,_|_| |_| |_|_| |_| |_|\___|
       |_|   $g The Script By :$w Plus-X4
       
-"
+'''
 echo 
 echo -e $r "
   [1]$g Spamme send SMS
