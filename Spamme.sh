@@ -21,11 +21,11 @@ echo ""
 echo ""
 echo -e $r '''
  ____
-/ ___| _ __   __ _ _ __ ___  _ __ ___   ___ 
+/ ___| _ __  __ _ _ __ ___  _ __ ___   ___ 
 \___ \| _ \ / _` | `_ ` _ \| `_ ` _ \ / _ \ 
  ___) | |_) | (_| | | | | | | | | | | |  __/
 |____/| .__/ \__,_|_| |_| |_|_| |_| |_|\___|'''
-echo -e $r "      |_|   $g The Script By :$w Plus-X4"
+echo -e $r "     |_|   $g The Script By :$w Plus-X4"
 echo
 echo 
 echo -e $r "
@@ -40,15 +40,15 @@ read -p "[+] Enter Number {> " ip
 if [ $ip = 1 ]
 then
 echo
-read -p $g "[!] Enter Victim's phone number > " Nn
+read -p  "[!] Enter Victim's phone number > " Nn
 cd Modules/.Spammer-Grab
 python2 spammer.py $Nn --delay 60
 cd ../..
 fi
 if [ $ip = 2 ]
 then
-read -p $g "[!] Enter Victim's phone number > " Hh
-read -p  $g "[!] Enter Many Call > " Mm
+read -p  "[!] Enter Victim's phone number > " Hh
+read -p   "[!] Enter Many Call > " Mm
 cd Modules
 php .call.php -x '$Hh' -x 'y' -x '$Mm'
 cd ..
@@ -56,12 +56,12 @@ fi
 if [ $ip = 3 ]
 then
 read -p $g "[!] Enter Your Email > " a
-read -p $g "[!] Enter Password > " b
-read -p $g "[!] You Email gmail/yahho > " c
+read -p  "[!] Enter Password > " b
+read -p "[!] You Email gmail/yahho > " c
 echo
-read -p $g "[!] Enter Victim's Email > " d
-read -p $g "[!] Enter Mesagge > " h
-read -p $g "[!] Enter Many Message > " i
+read -p  "[!] Enter Victim's Email > " d
+read -p  "[!] Enter Mesagge > " h
+read -p "[!] Enter Many Message > " i
 
 cd Modules
 python2 .email.py -x '$c' -x '$a' -x '$b' -x '$d' -x '$h' -x '$i'
